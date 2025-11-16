@@ -100,29 +100,29 @@ Start the web application.
 
 ```
 
-[Specify the run command for your framework, e.g., python app.py, streamlit run main.py]
+[streamlit run app.py]
 
 ````
 
-The application should now be running on `http://localhost:[PORT_NUMBER]`.
+The application should now be running on `http://localhost:[8153]`.
 
 ## 💡 Usage
 
-1. **Launch:** Navigate to the application URL (`http://localhost:[PORT_NUMBER]`).
+1. **Launch:** Navigate to the application URL (`http://localhost:[8153]`).
 
-2. **Input:** \[Describe the initial action, e.g., Enter a movie title in the search bar or select from the dropdown.\]
+2. **Input:** \[Enter a movie title in the search bar or select from the dropdown.\]
 
-3. **Process:** Click the "Recommend" button, triggering an API call to the backend prediction service.
+3. **Process:** Click the "Recommend" button prediction service.
 
-4. **Output:** The system will display a list of the top 10 recommended movies, ranked by their predicted rating score, along with their associated \[Specify what metadata is shown, e.g., genre, year, similarity score\].
+4. **Output:** The system will display a list of the top 10 recommended movies, ranked by their predicted rating score, along with their associated.
 
 ## 📊 Data Source
 
-The project uses the **\[Specify the dataset, e.g., MovieLens 100k/1M/20M Dataset\]** dataset, which contains \[Number\] of ratings and \[Number\] movie entries.
+The project uses the **\[MovieLens 100k/1M/20M Dataset\]** dataset, which contains \[Number\] of ratings and \[Number\] movie entries.
 
-* **Source URL:** \[Provide URL if public\]
 
-* **Data Cleaning:** \[Briefly describe any cleaning steps, e.g., removed movies with less than 50 ratings, handled missing genres.\]
+
+
 
 ## 🧠 Recommendation Algorithm
 
